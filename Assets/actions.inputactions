@@ -1,0 +1,34 @@
+{
+    "name": "actions",
+    "maps": [
+        {
+            "name": "default",
+            "id": "e2cdca55-0dbd-420f-b317-d015432d6361",
+            "actions": [
+                {
+                    "name": "Accel",
+                    "type": "Value",
+                    "id": "574a6d54-3c7f-491d-8c76-510b28f8358a",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "21fddde2-0e42-4758-a3e8-1f7a6b073577",
+                    "path": "<Accelerometer>/acceleration",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Accel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

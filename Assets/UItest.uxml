@@ -1,0 +1,19 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement enabled="true" style="flex-grow: 1;">
+        <engine:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: center; height: 0; max-height: 50px; background-color: rgb(224, 224, 224);">
+            <engine:Button text="&lt;&lt;" />
+            <engine:Button text="&lt;" />
+            <engine:UnsignedIntegerField label="Year:" value="2025" password="false" />
+            <engine:Button text="&gt;" />
+            <engine:Button text="&gt;&gt;" />
+        </engine:VisualElement>
+        <engine:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: center; height: 0; max-height: 50px; -unity-background-image-tint-color: rgb(222, 222, 222); background-color: rgb(226, 226, 226); border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;">
+            <engine:Button text="&lt;&lt;" />
+            <engine:Button text="&lt;" />
+            <Unity.AppUI.UI.TextField invalid="false" style="width: 121px;" />
+            <engine:Button text="&gt;" />
+            <engine:Button text="&gt;&gt;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="CalendarArea" enabled="true" style="flex-grow: 1; flex-direction: row; align-items: flex-start; justify-content: flex-start; align-self: stretch; background-color: rgb(252, 255, 200); flex-wrap: wrap;" />
+    </engine:VisualElement>
+</engine:UXML>
